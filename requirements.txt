@@ -1,8 +1,7 @@
-itemadapter==0.13.1
-packaging==26.0
-pytest==9.0.2
-Scrapy==2.14.1
-scrapy-poet==0.27.0
-scrapy-zyte-api==0.32.0
-web-poet==0.23.1
-zyte-common-items==0.29.0
+itemadapter>=0.13.1
+pytest>=9.0.2
+scrapy>=2.14.1
+scrapy-poet>=0.27.0
+scrapy-zyte-api>=0.32.0
+web-poet>=0.23.1
+zyte-common-items>=0.29.0
