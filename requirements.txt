@@ -1,7 +1,8 @@
-itemadapter
-pytest
-scrapy
-scrapy-poet
-scrapy-zyte-api
-web-poet
+scrapy>=2.11.0
+scrapy-poet>=0.22.0
+scrapy-zyte-api>=0.20.0
+zyte-spider-templates>=0.8.0
+web-poet>=0.21.0
 zyte-common-items
+pytest>=7.0.0
+itemadapter>=0.13.0
