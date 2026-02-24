@@ -90,4 +90,3 @@ DOWNLOAD_DELAY = 1
 
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
-ZYTE_API_KEY="e0b985efafbd4e168ebd076a5b0efecf"
