@@ -14,3 +14,4 @@ class MauromattosScrapyItem(scrapy.Item):
 
 class AmericanasProductItem(Product):
     pass
+    pass
