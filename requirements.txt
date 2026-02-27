@@ -6,3 +6,4 @@ web-poet>=0.21.0
 zyte-common-items
 pytest>=7.0.0
 itemadapter>=0.13.0
+python-dotenv>=1.0.0
