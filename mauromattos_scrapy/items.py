@@ -6,12 +6,10 @@
 import scrapy
 from zyte_common_items.items.product import Product
 
-
 class MauromattosScrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
 
 class AmericanasProductItem(Product):
-    pass
     pass

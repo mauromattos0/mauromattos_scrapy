@@ -12,6 +12,14 @@ BOT_NAME = "mauromattos_scrapy"
 SPIDER_MODULES = ["mauromattos_scrapy.spiders"]
 NEWSPIDER_MODULE = "mauromattos_scrapy.spiders"
 
+import os
+from dotenv import load_dotenv
+
+project_root = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(os.path.join(project_root, ".env"))
+
+ZYTE_API_KEY = os.environ.get("ZYTE_API_KEY")
+
 ADDONS = {
     "scrapy_poet.Addon": 300,
     "scrapy_zyte_api.Addon": 500,
